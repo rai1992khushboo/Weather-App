@@ -1,0 +1,13 @@
+.set-img{
+    background-image:url(./img/pexels-johannes-plenio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    color: #060211;
+    font-family: Arial, sans-serif;   
+}
+.img-size{
+    height:30px;
+    width:40px;
+}

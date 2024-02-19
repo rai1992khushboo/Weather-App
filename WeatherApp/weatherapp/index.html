@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TempTrack</title>
+    <link rel="stylesheet"  href="styles.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.css"/>
+    
+</head>
+<body class="set-img container-fluid col-12 d-flex flex-column mt-5 align-content-center  fs-5">
+    <h1 class="fs-4" >"Welcome to TempTrack, where every forecast is at your fingertips. Stay ahead of the elements with real-time updates and reliable predictions. From sunny days to stormy nights, we've got you covered. Plan your day with confidence, no matter where you are. Download now and experience weather like never before!"</h1>
+    <h1>Weather Details <img class="img-size" src="./img/downloadcopy.jpg"/>   </h1>
+    <label class=" mx-4" for="location">Select a location: </label>
+    <input class="col-2  mx-4 mt-3" type="text" id="location" list="locations" placeholder="Entar location">
+    <datalist  id="locations">
+        <option value="Arunachal Pradesh">
+        <option value="Karnataka">
+        <option value="Odisha">
+        <option value="Bihar">
+        <option value="West Bengal">
+        <option value="Andhra Pradesh">
+        <option value="Madhya Pradesh">
+        <option value="Assam">
+        <option value="Gujarat">
+        <option value="Sikkim">
+        <option value="Tamil Nadu">
+        <option value="Telangana">
+        <option value="Tripura">
+        <option value="Himachal Pradesh">
+        <option value="Jammu and Kashmir">
+        <option value="Jharkhand">
+        <option value="Uttar Pradesh">            
+        <option value="Tamil Nadu">
+        <option value="Maharashtra">
+    </datalist>
+    <button class="col-2 mx-4 mt-3" id="search">Search</button>
+    <div id="result">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
